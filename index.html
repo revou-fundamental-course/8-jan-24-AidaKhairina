@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Kalkulator Matematik Persegi</title>
+</head>
+<body>
+    <header>
+        <h1>KaTikGi   <span> Kalkulator Matematik Persegi</sapan></h1>
+    </header>
+    <section>
+        <h2 class="welcome">Selamat Datang di KaTikGi!</h2>
+        <h4 class="opening">Hai Sobat Matematik, KaTikGi ini merupakan sebuah website yang dapat membantu teman-teman untuk menghitung luas dan keliling persegi secara cepat dan akurat. Lets try it!</h4>
+        <h2 class="jdlpersegi">Luas Persegi</h2>
+        <article>
+            <div> 
+                <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa1zGt2ISHRywtkT9jl6IKvYkUMiUcN3xklw&usqp=CAU>
+            </div>
+            <br>
+            <h3>Rumus Luas persegi yaitu :</h3>
+            <h2 class="rumus">L = S x S</h2>
+            <h3>Keterangan :
+                <br>L = Luas
+                <br>S = Sisi
+            </h3>
+            <h2 class="hitung">Hitung Luas Persegi</h2>
+            <div>
+                <input type="text" id="luas" placeholder="Nilai Sisi">
+            </div>
+            <br>
+            <h3 id="rumusluas"></h3>
+            <h3 id="nilailuas"></h3>
+            <h3 id="hasil"></h3>
+            <br>
+            <div>
+                <button class="count" value="jumlah" onclick="luas()" >Hitung</button>
+            </div>
+            <br>
+            <div>
+                <div>
+                    <button class="del" onclick="hapus()">Hapus</button>
+                </div>
+            </div>
+        </article>
+        <aside>
+            <h2 class="jdlpersegi">Keliling Persegi</h2>
+            <article>
+                <div> 
+                    <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa1zGt2ISHRywtkT9jl6IKvYkUMiUcN3xklw&usqp=CAU>
+                </div>
+                <br>
+                <h3>Rumus Keliling persegi yaitu :</h3>
+                <h2 class="rumus">K = 4 x S</h2>
+                <h3>Keterangan :
+                    <br>K = Keliling
+                    <br>S = Sisi
+                </h3>
+                <h2 class="hitung">Hitung Keliling Persegi</h2>
+                <div>
+                    <input type="text" id="kel" placeholder="Nilai Sisi">
+                </div>
+                <br>
+                <h3 id="rumuskeliling"></h3>
+                <h3 id="nilaikeliling"></h3>
+                <h3 id="keliling"></h3>
+                <br>
+                <div>
+                    <button class="count" value="jumlahkel" onclick="keliling()" >Hitung</button>
+                </div>
+                <br>
+                <div>
+                    <div>
+                        <button class="del" onclick="hapuss()">Hapus</button>
+                    </div>
+                </div>
+            </article>
+        </aside>
+    </section>
+    <script src="./js/script.js"></script>
+
+</body>
+</html>

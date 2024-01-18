@@ -1,0 +1,102 @@
+body {
+    font-family :'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align :center;
+    color : black;
+    background-color: #7077A1;
+    margin : 0px;
+    padding : 0px;
+}
+body header {
+    font-size: 20px;
+    background-color: #2D3250;
+    color : #FFB000;
+    padding : 1px;
+    margin-bottom: 30px;
+}
+span {
+    font-size: 21px;
+    color : #B4B4B3;
+}
+body section {
+    background-color: #F0F0F0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.welcome {
+    font-size: 30px;
+}
+.opening{
+    width :60%;
+    margin-left: 20%;
+}
+.jdlpersegi{
+    background-color: #2D3250;
+    width : 93%;
+    text-align: center;
+    margin-left: 28px;
+    margin-right: 28px;
+    font-size: 28px;
+    color : #B4B4B3;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    padding : 20px;
+    border : 5px solid #2D3250;
+}
+div {
+    display : flex;
+    justify-content: center;
+}
+body article  {
+    width : 93%;
+    background-color: #F0F0F0;
+    text-align: left;
+    margin-left: 28px;
+    margin-right: 28px;
+    padding : 20px;
+    border : 5px solid #2D3250;
+}
+.rumus {
+    text-align: center;
+}
+.hitung {
+    text-align: center;
+}
+#luas {
+    outline: none;
+    width : 98%;
+    border-radius: 8px;
+    padding : 10px;
+}
+#kel {
+    outline: none;
+    width : 98%;
+    border-radius: 8px;
+    padding : 10px;
+}
+.count {
+    background-color: #424769;
+    width: 80px;
+    color : white;
+    border-radius : 8px;
+    border : none;
+    padding : 10px;
+    cursor: pointer;
+}
+.count:hover {
+    background-color: #2D3250;  
+}
+.del{
+    background-color: rgb(221, 50, 50);
+    width: 80px;
+    color : white;
+    border-radius : 8px;
+    border : none;
+    padding : 10px;
+    cursor: pointer;
+    margin-left: 1120px;
+}
+.del:hover{
+    background-color: rgb(138, 5, 5);  
+}
